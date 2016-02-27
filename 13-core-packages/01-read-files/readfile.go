@@ -7,7 +7,7 @@ import (
 )
 
 func main(){
-	file, err := os.Open("test.txt")
+	file, err := os.Open("13-core-packages/01-read-files/test.txt")
 	if err != nil {
 		log.Fatalf("error opening the file %v", err)
 	}
