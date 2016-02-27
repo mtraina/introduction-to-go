@@ -2,7 +2,7 @@ package math
 
 import (
 	"testing"
-	m "introduction-to-go/11-packages/01-package/math"
+	m "introduction-to-go/11-packages/01-average/math"
 )
 
 func TestAverage(t *testing.T){
